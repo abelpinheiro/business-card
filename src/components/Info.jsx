@@ -1,5 +1,7 @@
 import React from "react";
 import foto from "../assets/foto-perfil.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Info(){
     return (
@@ -8,7 +10,7 @@ export default function Info(){
             <h1 className="info--name">Abel Pinheiro de Figueiredo</h1>
             <h2 className="info--title">Software Engineer</h2>
             <h3 className="info--website">abelpinheiro.com</h3>
-            <button className="button"><i class="fa-solid fa-envelope"></i>Email</button>
+            <button className="button">Email</button>
         </div>
     )
 }

@@ -92,8 +92,25 @@ body{
 .footer {
   background-color: #161619;
   border-radius: 0px 0px 10px 10px;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .footer > button {
   margin: 19.5px 0px 19.5px 0px;
+  display: flex;
+  padding: 10px;
+  margin: 2px;
+}
+
+.footer a {
+  display: flex;
+  font-size: 2em;
+  margin: 4px;
+  box-sizing: border-box;
+  padding: 0.2em;
 }
